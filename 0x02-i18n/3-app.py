@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """ Flask app """
 from flask import Flask, render_template, request
-from flask_babel import Babel, gettext
-from jinja2 import FileSystemLoader
+from flask_babel import Babel
+
 
 app = Flask(__name__)
 babel = Babel(app)
